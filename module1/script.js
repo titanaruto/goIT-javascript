@@ -32,3 +32,5 @@ if(!LOGIN){
         message = 'Добро пожаловать!';
     }
 }
+
+alert(message);
