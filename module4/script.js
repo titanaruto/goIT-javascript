@@ -20,13 +20,11 @@ const notepad = {
      * Принимает: идентификатор заметки
      * Возвращает: заметку с совпавшим полем id или undefined если ничего не найдено
      */
-    let res = undefined;
     for (const note of this.notes){
       if (note["id"] == id){
         return note;
       }
     }
-    return res;
   },
   saveNote(note) {
     /*
@@ -49,7 +47,8 @@ const notepad = {
 
     for (let i = 0; i < this.notes.length; i++){
       if (this.notes[i].id == id){
-       delete this.notes[i];
+        this.notes.splice(i,1);
+
       }
     }
   },
