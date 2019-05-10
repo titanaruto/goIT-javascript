@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/module5/script.js" line="68" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6a009069-196a-4010-a63e-efad70422ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module6/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module6/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/module5/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/module6/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,19 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module6/script.js">
+        <entry file="file://$PROJECT_DIR$/module5/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+            <state relative-caret-position="17">
+              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module5/script.js">
+        <entry file="file://$PROJECT_DIR$/module6/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="213" column="40" selection-end-line="232" selection-end-column="68" />
+            <state relative-caret-position="425">
+              <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -52,8 +54,13 @@
       <find>saveNote</find>
       <find>findNoteById</find>
       <find>.</find>
+      <find>[&quot;id&quot;]</find>
+      <find>filterNotesByQuery</find>
       <find>updateNotePriority</find>
     </findStrings>
+    <replaceStrings>
+      <replace>.id</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,8 +75,8 @@
         <option value="$PROJECT_DIR$/module4/doplessons.js" />
         <option value="$PROJECT_DIR$/module4/index.html" />
         <option value="$PROJECT_DIR$/module4/script.js" />
-        <option value="$PROJECT_DIR$/module5/script.js" />
         <option value="$PROJECT_DIR$/module6/script.js" />
+        <option value="$PROJECT_DIR$/module5/script.js" />
       </list>
     </option>
   </component>
@@ -167,12 +174,12 @@
       <workItem from="1556863766240" duration="1026000" />
       <workItem from="1557123351307" duration="12348000" />
       <workItem from="1557211253497" duration="7892000" />
-      <workItem from="1557475802442" duration="2569000" />
+      <workItem from="1557475802442" duration="4589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38514000" />
+    <option name="totallyTimeSpent" value="40534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1917" y="0" width="1926" height="1083" extended-state="6" />
@@ -262,17 +269,17 @@
     <entry file="file://$PROJECT_DIR$/module6/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module5/script.js">
+    <entry file="file://$PROJECT_DIR$/module6/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="213" column="40" selection-end-line="232" selection-end-column="68" />
+        <state relative-caret-position="425">
+          <caret line="82" column="28" lean-forward="true" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module6/script.js">
+    <entry file="file://$PROJECT_DIR$/module5/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+        <state relative-caret-position="17">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>

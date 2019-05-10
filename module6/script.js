@@ -21,7 +21,7 @@ class Notepad {
          * Возвращает: заметку с совпавшим полем id или undefined если ничего не найдено
          */
         for (const note of this._notes) {
-            if (note["id"] === id) {
+            if (note.id === id) {
                 return note;
             }
         }
@@ -34,9 +34,7 @@ class Notepad {
          * Принимает: объект заметки
          * Возвращает: сохраненную заметку
          */
-        let save = {};
-        save = note;
-        this._notes.push(save);
+        this._notes.push(note);
     };
 
     deleteNote(id) {
@@ -65,7 +63,7 @@ class Notepad {
          */
 
         for (const note of this._notes) {
-            if (note["id"] === id) {
+            if (note.id === id) {
                 const noteObj = Object.assign(note, updatedContent);
                 return noteObj;
             }
@@ -80,8 +78,9 @@ class Notepad {
          * Возвращает: обновленную заметку
          */
         for (const note of this._notes) {
-            if (note["id"] === id) {
+            if (note.id === id) {
                 note.priority = priority;
+                return note;
             }
         }
     };
@@ -94,7 +93,6 @@ class Notepad {
          * Принимает: подстроку для поиска в title и body заметки
          * Возвращает: новый массив заметок, контент которых содержит подстроку
          */
-        let res = undefined;
         let title = "";
         let body = "";
         for (const note of this._notes) {
@@ -104,7 +102,6 @@ class Notepad {
                 return note;
             }
         }
-        return res;
     };
 
     filterNotesByPriority(priority) {

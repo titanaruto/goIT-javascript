@@ -16,7 +16,7 @@ const Notepad = function Notepad(notes = []) {
      * Возвращает: заметку с совпавшим полем id или undefined если ничего не найдено
      */
     for (const note of this.notes){
-      if (note["id"] == id){
+      if (note.id === id){
         return note;
       }
     }
@@ -29,9 +29,7 @@ const Notepad = function Notepad(notes = []) {
      * Принимает: объект заметки
      * Возвращает: сохраненную заметку
      */
-    let save = {};
-    save = note;
-    this.notes.push(save);
+    this.notes.push(note);
   };
 
   this.deleteNote = function(id) {
@@ -42,9 +40,8 @@ const Notepad = function Notepad(notes = []) {
      * Возвращает: ничего
      */
     for (let i = 0; i < this.notes.length; i++){
-      if (this.notes[i].id == id){
+      if (this.notes[i].id === id){
         this.notes.splice(i,1);
-
       }
     }
   };
@@ -60,7 +57,7 @@ const Notepad = function Notepad(notes = []) {
      */
 
     for (const note of this.notes){
-      if (note["id"] == id){
+      if (note.id === id){
         const noteObj = Object.assign(note,updatedContent);
         return noteObj;
       }
@@ -74,8 +71,9 @@ const Notepad = function Notepad(notes = []) {
      * Возвращает: обновленную заметку
      */
     for (const note of this.notes){
-      if (note["id"] == id){
+      if (note.id === id){
         note.priority = priority;
+        return note;
       }
     }
   };
@@ -87,7 +85,6 @@ const Notepad = function Notepad(notes = []) {
      * Принимает: подстроку для поиска в title и body заметки
      * Возвращает: новый массив заметок, контент которых содержит подстроку
      */
-    let res = undefined;
     let title = "";
     let body = "";
     for (const note of this.notes){
@@ -97,7 +94,6 @@ const Notepad = function Notepad(notes = []) {
         return note;
       }
     }
-    return res;
   };
   this.filterNotesByPriority = function(priority) {
     /*
@@ -109,7 +105,7 @@ const Notepad = function Notepad(notes = []) {
      */
     let res = [];
     for (const note of this.notes){
-      if (note.priority == priority){
+      if (note.priority === priority){
         res.push(note);
       }
     }
