@@ -30,6 +30,7 @@ const Notepad = function Notepad(notes = []) {
      * Возвращает: сохраненную заметку
      */
     this.notes.push(note);
+    return note;
   };
 
   this.deleteNote = function(id) {
@@ -87,13 +88,16 @@ const Notepad = function Notepad(notes = []) {
      */
     let title = "";
     let body = "";
+    const res = [];
     for (const note of this.notes){
       title = note.title.toLowerCase();
       body = note.body.toLowerCase();
       if (title.includes(query.toLowerCase()) || body.includes(query.toLowerCase())){
-        return note;
+        // return note;
+        res.push(note);
       }
     }
+    return res;
   };
   this.filterNotesByPriority = function(priority) {
     /*

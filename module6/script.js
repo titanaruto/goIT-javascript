@@ -35,6 +35,7 @@ class Notepad {
          * Возвращает: сохраненную заметку
          */
         this._notes.push(note);
+        return note;
     };
 
     deleteNote(id) {
@@ -95,13 +96,15 @@ class Notepad {
          */
         let title = "";
         let body = "";
+        let res = [];
         for (const note of this._notes) {
             title = note.title.toLowerCase();
             body = note.body.toLowerCase();
             if (title.includes(query.toLowerCase()) || body.includes(query.toLowerCase())) {
-                return note;
+                res.push(note);
             }
         }
+        return res;
     };
 
     filterNotesByPriority(priority) {
