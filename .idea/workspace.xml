@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a009069-196a-4010-a63e-efad70422ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module3/doplessons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,34 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module3/doplessons.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module3/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module3/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +20,14 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.page__triggers.white .page__triggers-bottom</find>
+      <find>.page__triggers-bottom</find>
+      <find>.crm-webform-no-borders .crm-webform-default</find>
+      <find>page__triggers-bottom</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,14 +39,25 @@
         <option value="$PROJECT_DIR$/practice.js" />
         <option value="$PROJECT_DIR$/module3/index.html" />
         <option value="$PROJECT_DIR$/module3/script.js" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/local/templates/aspro_mshop/css/all.min2.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/landing/css/main.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/ua/landing/css/main.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/bitrix/templates/aspro_mshop/css/all.min2.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/svetoprozrachnye-elementy-v-krovelnye-sendvich-paneli/css/all.min.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/local/templates/aspro_mshop/css/all.min.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/bitrix/templates/aspro_mshop/css/all.min.css" />
+        <option value="$PROJECT_DIR$/form50.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/plastics.karbosnab.com/local/templates/aspro_mshop/css/all.min.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/plastics.karbosnab.com/local/templates/aspro_mshop/css/all.min2.css" />
+        <option value="&lt;35abf5d0-3f19-4072-8738-ba1770434ca6&gt;/karbosnab.com/local/templates/aspro_mshop/template_styles.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="365" />
-    <option name="y" value="203" />
-    <option name="width" value="1388" />
-    <option name="height" value="919" />
+    <option name="y" value="200" />
+    <option name="width" value="1390" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -101,7 +90,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -137,17 +131,19 @@
       <workItem from="1555942051230" duration="3223000" />
       <workItem from="1555999543928" duration="113000" />
       <workItem from="1556000357926" duration="1975000" />
+      <workItem from="1556301668066" duration="3036000" />
+      <workItem from="1556304780747" duration="950000" />
+      <workItem from="1557848386755" duration="93000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5861000" />
+    <option name="totallyTimeSpent" value="9940000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1051" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25772098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26107383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,12 +156,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2681081" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.305949" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.21073826" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,40 +176,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module3/doplessons.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/practice.js" />
+    <entry file="file://$PROJECT_DIR$/module3/doplessons.js" />
     <entry file="file://$PROJECT_DIR$/module3/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="432">
           <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form50.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="44" />
         </state>
       </provider>
     </entry>

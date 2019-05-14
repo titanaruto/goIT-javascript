@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="35abf5d0-3f19-4072-8738-ba1770434ca6" name="karbosnab" url="http://193.200.173.220">
+        <fileTransfer host="193.200.173.220" port="2224" privateKey="C:\Users\Alex\Downloads\Microsoft.SkypeApp_kzf8qxf38zg5c!App\All\bitrixadmin1.ppk" rootFolder="/home/bitrix/ext_www/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2224" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
