@@ -63,11 +63,7 @@ class Notepad {
      * Принимает: идентификатор заметки
      * Возвращает: ничего
      */
-    for (let i = 0; i < this._notes.length; i++) {
-      if (this._notes[i].id === id) {
-        this._notes.splice(i, 1);
-      }
-    }
+    this._notes = this._notes.filter(note => note.id !== id);
   }
 
   updateNoteContent(id, updatedContent) {
@@ -157,9 +153,9 @@ const initialNotes = [
 
 
 const createListItem = function(note) {
-  const list__item = document.createElement("li");
-  list__item.classList.add("list__item");
-  list__item.dataset.id = note.id;
+  const note_list__item = document.createElement("li");
+  note_list__item.classList.add("note-list__item");
+  note_list__item.dataset.id = note.id;
 
   const div_note = document.createElement("div");
   div_note.classList.add("note");
@@ -168,9 +164,9 @@ const createListItem = function(note) {
   div_note.append(createNoteContent(note));
 
   div_note.append(createNoteFooter(note));
-  
-  list__item.append(div_note);
-  return list__item;
+
+  note_list__item.append(div_note);
+  return note_list__item;
 };
 const createNoteContent = function(note) {
   const note__content = document.createElement("div");
