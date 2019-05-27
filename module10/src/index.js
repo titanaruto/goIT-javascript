@@ -1,12 +1,9 @@
 import './sass/main.scss';
 
 import {NOTE_ACTIONS} from  './js/utils/constants.js';
-import {initialNotes} from  './js/initialNotes.js';
-import Notepad from './js/model.js';
+import initialNotes from  './assets/notes.json';
+import Notepad from './js/notepad-model.js';
 import {renderListItems,addListItem,validOrInvalidShow,removeClassAndValue} from './js/workWithItem.js';
-
-
-
 
 
 

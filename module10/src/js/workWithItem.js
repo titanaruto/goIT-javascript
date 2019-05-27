@@ -1,4 +1,4 @@
-import {createListItem} from "./createContent";
+import {createListItem} from "./view";
 
 export const renderListItems = (listRef, data) => {
     const listItems = data.map(item => createListItem(item));

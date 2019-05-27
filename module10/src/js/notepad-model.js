@@ -1,14 +1,11 @@
 import {PRIORITY_TYPES} from './utils/constants.js';
+const shortid = require('shortid');
 
+// console.log(shortid.generate());
 export default class Notepad {
 
     static generateUniqueId(){
-        return Math.random()
-            .toString(36)
-            .substring(2, 15) +
-        Math.random()
-            .toString(36)
-            .substring(2, 15);
+        return shortid.generate();
     };
 
 
