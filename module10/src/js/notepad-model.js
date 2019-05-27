@@ -4,10 +4,6 @@ const shortid = require('shortid');
 // console.log(shortid.generate());
 export default class Notepad {
 
-    static generateUniqueId(){
-        return shortid.generate();
-    };
-
 
     constructor(notes = []) {
         this._notes = notes;
@@ -32,7 +28,7 @@ export default class Notepad {
 
     saveNote(titleText, bodyText) {
         const newItem = {
-            id: Notepad.generateUniqueId(),
+            id: shortid.generate(),
             title: titleText,
             body: bodyText,
             priority: PRIORITY_TYPES.LOW,
