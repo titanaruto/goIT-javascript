@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --env.mode development --env.port 8080",
     "build": "webpack --env.mode production"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Alexander Shmakov <titanaruto@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.2.2",
