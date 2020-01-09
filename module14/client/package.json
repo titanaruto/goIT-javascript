@@ -1,0 +1,47 @@
+{
+  "name": "notepad-js-homework",
+  "version": "1.0.0",
+  "description": "Vanilla JS Notepad app",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --env.mode development --env.port 8080",
+    "build": "webpack --env.mode production"
+  },
+  "author": "Alexander Shmakov <titanaruto@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.1",
+    "file-loader": "^5.0.2",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "npm-check-updates": "^4.0.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2",
+    "webpackbar": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.7.7",
+    "handlebars": "^4.6.0",
+    "micromodal": "^0.4.2",
+    "notyf": "^3.1.0",
+    "shortid": "^2.2.15"
+  }
+}

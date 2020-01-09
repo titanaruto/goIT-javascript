@@ -1,0 +1,16 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "Javascript",
+      "body": "Get comfortable with all basic JavaScript concepts: variables, loops, arrays, branching, objects, functions, scopes, prototypes etc",
+      "priority": 2
+    },
+    {
+      "id": "S2KWjFv40",
+      "title": "test",
+      "body": "test",
+      "priority": 0
+    }
+  ]
+}
