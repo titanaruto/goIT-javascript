@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.0",
-    "handlebars": "^4.1.0"
+    "handlebars": "^4.7.7"
   }
 }
